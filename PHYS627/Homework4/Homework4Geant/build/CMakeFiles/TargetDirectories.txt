@@ -1,0 +1,4 @@
+/home/aidango/code/geant4Projects/Tutorial/build/CMakeFiles/sim.dir
+/home/aidango/code/geant4Projects/Tutorial/build/CMakeFiles/Tutorial.dir
+/home/aidango/code/geant4Projects/Tutorial/build/CMakeFiles/edit_cache.dir
+/home/aidango/code/geant4Projects/Tutorial/build/CMakeFiles/rebuild_cache.dir

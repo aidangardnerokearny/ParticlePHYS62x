@@ -1,0 +1,27 @@
+/run/initialize
+
+/vis/open OGL 600x600-0+0
+
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/viewer/set/autoRefresh true 
+
+/vis/drawVolume
+
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/vis/scene/add/scale 10 cm
+/vis/scene/add/axes
+/vis/scene/add/eventID
+
+# Ensure the viewer allows 2D overlays to persist
+/vis/viewer/set/picking false
+/vis/viewer/set/background black
+/vis/viewer/set/lineSegmentsPerCircle 100
+
+# This is the magic line for some OpenGL drivers to show 2D text
+/vis/viewer/set/auxiliaryEdge true
+
+# Force a refresh cycle that includes the 2D foreground
+/vis/viewer/set/autoRefresh true
+
+/vis/viewer/update
